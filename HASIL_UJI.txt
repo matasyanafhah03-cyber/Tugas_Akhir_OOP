@@ -1,0 +1,35 @@
+Spreadsheet runtime warmup failed during python startup
+Traceback (most recent call last):
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/patches/warm_spreadsheet_runtime_on_startup.py", line 26, in warm_spreadsheet_runtime_on_startup
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 785, in warm_spreadsheet_runtime
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 718, in _warm_feature_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/spreadsheet_warmup.py", line 509, in _warm_drawing_and_image_flows
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/generated/interface/models.py", line 32861, in bring_to_front
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/remote.py", line 764, in __call__
+  File "/tmp/tmp.QlpUkOUI9D/artifact_tool_v2-2.8.66/artifact_tool/rpc/client.py", line 175, in call
+artifact_tool.rpc.client.RemoteError: Element ordering requires an owning element collection.
+test_anggota_terdaftar (tests.test_aturan.TestAturan.test_anggota_terdaftar) ... ok
+test_anggota_tidak_terdaftar (tests.test_aturan.TestAturan.test_anggota_tidak_terdaftar) ... ok
+test_buku_ditemukan (tests.test_aturan.TestAturan.test_buku_ditemukan) ... ok
+test_buku_tidak_tersedia (tests.test_aturan.TestAturan.test_buku_tidak_tersedia) ... ok
+test_anggota_tidak_terdaftar_ditolak (tests.test_layanan.TestLayanan.test_anggota_tidak_terdaftar_ditolak) ... ok
+test_aturan_rusak_melanggar_kontrak (tests.test_layanan.TestLayanan.test_aturan_rusak_melanggar_kontrak) ... ok
+test_batas_pinjam_tiga (tests.test_layanan.TestLayanan.test_batas_pinjam_tiga) ... ok
+test_buku_sedang_dipinjam_ditolak (tests.test_layanan.TestLayanan.test_buku_sedang_dipinjam_ditolak) ... ok
+test_id_transaksi_salah (tests.test_layanan.TestLayanan.test_id_transaksi_salah) ... ok
+test_isbn_ganda_ditolak (tests.test_layanan.TestLayanan.test_isbn_ganda_ditolak) ... ok
+test_isbn_kosong_ditolak (tests.test_layanan.TestLayanan.test_isbn_kosong_ditolak) ... ok
+test_peminjaman_valid (tests.test_layanan.TestLayanan.test_peminjaman_valid) ... ok
+test_pengembalian_dan_riwayat (tests.test_layanan.TestLayanan.test_pengembalian_dan_riwayat) ... ok
+test_repositori_fake_dan_tanggal_injeksi (tests.test_layanan.TestLayanan.test_repositori_fake_dan_tanggal_injeksi) ... ok
+test_tambah_aturan_tanpa_ubah_layanan (tests.test_layanan.TestLayanan.test_tambah_aturan_tanpa_ubah_layanan) ... ok
+test_tambah_dan_cari_buku (tests.test_layanan.TestLayanan.test_tambah_dan_cari_buku) ... ok
+test_buku_baru_tersedia (tests.test_models.TestModels.test_buku_baru_tersedia) ... ok
+test_isbn_kosong_ditolak (tests.test_models.TestModels.test_isbn_kosong_ditolak) ... ok
+test_siklus_peminjaman_pengembalian (tests.test_models.TestModels.test_siklus_peminjaman_pengembalian) ... ok
+test_status_tidak_bisa_diubah_langsung (tests.test_models.TestModels.test_status_tidak_bisa_diubah_langsung) ... ok
+
+----------------------------------------------------------------------
+Ran 20 tests in 0.001s
+
+OK
